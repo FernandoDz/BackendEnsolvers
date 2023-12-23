@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Backend.EN
 {
@@ -19,8 +20,6 @@ namespace Backend.EN
 
         [NotMapped]
         public int Top_Aux { get; set; }
-
-        public List<Categoria> Categorias { get; set; }
 
     }
 }
